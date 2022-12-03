@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  margin: 8rem;
+  font-family: "Inter";
+}
+h1 {
+  font-weight: 800;
+  width: fit-content;
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.8rem;
+  background-color: rgb(255, 255, 255);
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+a:hover {
+  color: rgba(218, 165, 32, 0.768);
+}
+header {
+  justify-content: space-between;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.bck {
+  width: 800px;
+}
+
+.st {
+  color: hsl(240, 100%, 5%);
+  font-size: 2.8rem;
+  width: 9ch;
+  font-weight: 800;
+}
+
+.second2 {
+  align-items: center;
+  display: flex;
+  gap: 0rem;
+  padding-top: 1rem;
+}
+.second {
+  display: flex;
+  gap: 0rem;
+  padding-top: 1rem;
+}
+
+.nd {
+  width: 50ch;
+  color: hsl(236, 13%, 42%);
+}
+
+button {
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-family: "Inter";
+  cursor: pointer;
+  width: 200px;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.01);
+}
+.tarxna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.right {
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+}
+
+.right h1 {
+  color: rgba(218, 165, 32, 0.768);
+  padding: 2rem 1em 2rem 1rem;
+  margin-left: 42px;
+}
+
+.right h2 {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.right h2:hover {
+  color: goldenrod;
+}
+
+.right div {
+  padding: 1rem 1em 3rem 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+.right div p {
+  color: hsl(237, 20%, 82%);
+}
+
+.list {
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.middle {
+  display: flex;
+  gap: 2rem;
+}
+
+.secondd {
+  margin-right: 20px;
+}
+
+.second2 {
+  margin-top: 2rem;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.bottom img {
+  height: 100px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom h1 {
+  font-size: 1.8rem;
+  color: hsl(237, 20%, 82%);
+}
+
+.bottom h2 {
+  font-size: 1rem;
+  color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
+
+.bottom h2:hover {
+  color: orangered;
+}
+
+.bottom p {
+  font-size: 0.8rem;
+  color: hsl(240, 5%, 66%);
+  width: 24ch;
+}
+
+.botin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
